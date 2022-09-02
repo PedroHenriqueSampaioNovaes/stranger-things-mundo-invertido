@@ -97,6 +97,10 @@ button {
   transition: background 1s;
 }
 
+ul {
+  list-style: none;
+}
+
 input,
 textarea {
   border: 2px solid var(--primary-color-contrast);
@@ -197,6 +201,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0 10px;
 }
 
 main::before {
@@ -220,6 +225,7 @@ section {
 /* SECTION 01 INVERTED WORLD */
 .container {
   max-width: 1200px;
+  width: 100%;
 }
 
 #section-inverted-world {
@@ -235,6 +241,10 @@ section {
 }
 
 /* SECTION 02 - STRANGER THINGS TRAILER */
+#section-stranger-things-trailer {
+  column-gap: 20px;
+}
+
 #section-stranger-things-trailer .section-texts {
   width: 50%;
   text-align: right;
@@ -250,6 +260,8 @@ section {
 }
 
 #section-stranger-things-trailer .video-frame iframe {
+  width: 460px;
+  height: 215px;
   position: relative;
   bottom: 24px;
   left: 24px;
