@@ -31,7 +31,7 @@
   }
 
   #section-inverted-world .section-texts h2 {
-    width: fit-content;
+    max-width: 100%;
   }
 
   #section-inverted-world img {
@@ -92,22 +92,21 @@
   }
 
   #section-form .form-content {
+    width: 100%;
     flex-direction: column;
   }
 
   #section-form .form-content h3 {
     text-align: center;
+    width: 100%;
+    flex-basis: initial;
+    margin-bottom: 20px;
   }
 
   #section-form .form-container {
     flex-basis: auto;
     max-width: 400px;
     width: 100%;
-  }
-
-  #section-form .form-content h3 {
-    flex-basis: initial;
-    margin-bottom: 20px;
   }
 
   /* FOOTER */
@@ -119,9 +118,14 @@
 }
 
 @media (max-width: 680px) {
+  /* WORLD CHARACTERS STYLES */
+  .world-characters#bottom-characters {
+    height: 350px;
+  }
+
   /* SECTION 02 - STRANGER THINGS TRAILER */
   #section-stranger-things-trailer .video-frame iframe {
-    width: auto;
+    width: 100%;
     height: auto;
     bottom: 10px;
     left: 10px;
@@ -135,6 +139,21 @@
 }
 
 @media (max-width: 500px) {
+  h1, h2, h3 {
+    font-size: 2.2rem;
+    margin-bottom: 35px;
+  }
+
+  header {
+    min-height: 700px;
+  }
+
+  /* WORLD CHARACTERS STYLES */
+  .world-characters#bottom-characters {
+    height: 225px;
+  }
+
+  /* FOOTER */
   footer::before,
   footer::after {
     content: none;
