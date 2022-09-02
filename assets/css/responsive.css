@@ -133,3 +133,10 @@
     background-position: 50%;
   }
 }
+
+@media (max-width: 500px) {
+  footer::before,
+  footer::after {
+    content: none;
+  }
+}
