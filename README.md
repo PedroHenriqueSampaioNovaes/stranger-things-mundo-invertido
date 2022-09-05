@@ -7,7 +7,7 @@
 - [Sobre](#sobre)
 - [O que eu aprendi](#o-que-eu-aprendi)
 - [Screenshot](#screenshot)
--[Link](#link)
+- [Link](#link)
 
 ## Meu processo
 
