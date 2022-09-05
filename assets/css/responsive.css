@@ -139,7 +139,9 @@
 }
 
 @media (max-width: 500px) {
-  h1, h2, h3 {
+  h1,
+  h2,
+  h3 {
     font-size: 2.2rem;
     margin-bottom: 35px;
   }
@@ -157,5 +159,23 @@
   footer::before,
   footer::after {
     content: none;
+  }
+}
+
+@media (max-width: 362px) {
+  h1,
+  h2,
+  h3 {
+    font-size: 1.8rem;
+  }
+
+  /* SECTION 02 - STRANGER THINGS TRAILER */
+  #section-stranger-things-trailer .video-frame {
+    background: none;
+  }
+
+  #section-stranger-things-trailer .video-frame iframe {
+    left: 0;
+    bottom: 0;
   }
 }
